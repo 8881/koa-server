@@ -109,6 +109,7 @@ app.listen(PORT, () => {
   console.log(`[server] http://localhost:${PORT}`);
 });
 
+/** app.listen 其实就是 http.createServer 的语法糖 **/
 // const server = http.createServer(app.callback());
 // server.listen(PORT, function () {
 //   const port = server.address().port;
