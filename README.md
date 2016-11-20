@@ -31,6 +31,8 @@ router.get(`[接口地址]`, async(ctx, next) => {
 });
 ```
 
+<small>注：这里的 wrap 函数其实就是JSON.stringify 的包装</small>
+
 #### post请求接口
 
 ```
